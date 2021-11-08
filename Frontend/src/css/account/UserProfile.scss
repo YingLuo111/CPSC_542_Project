@@ -1,0 +1,42 @@
+.user-profile {
+  padding: 1rem 1.5rem 1rem 1rem;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: linear-gradient(
+    to top,
+    rgba(233, 231, 227, 0.925),
+    rgb(230, 187, 101)
+  );
+
+  .profile-button {
+    width: 100%;
+    background-color: rgb(231, 199, 53);
+    border-radius: 2rem;
+  }
+  .profile-button:hover {
+    background-color: orange;
+    color: black;
+  }
+
+  .profile-button-control {
+    width: 50%;
+  }
+
+  .shop-btn-container {
+    text-align: center;
+    .shop-button {
+      border-radius: 2rem;
+      color: black;
+      width: 100%;
+      font-size: 1.2rem;
+      background-color: rgb(231, 199, 53);
+      border-color: #dbdcdd;
+    }
+    .shop-button:hover {
+      background-color: orange;
+      color: black;
+    }
+  }
+}
