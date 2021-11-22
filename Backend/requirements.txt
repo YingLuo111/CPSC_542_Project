@@ -1,6 +1,0 @@
-python-dotenv
-pyjwt
-flask-cors
-cryptography
-foreman
-Flask-Mail
