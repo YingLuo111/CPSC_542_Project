@@ -71,7 +71,6 @@ public class NavigationTestDriver {
 		} finally {
 			driver.close();
 		}
-		
 	}
 	
 	private static void sleep(int timeInSeconds) {
