@@ -67,6 +67,7 @@ public class NavigationTestDriver {
 			log("Navigation tests succeeded");
 		} catch (Exception e) {
 			log("Navigation tests failed");
+			log(e.getMessage());
 		} finally {
 			driver.close();
 		}
