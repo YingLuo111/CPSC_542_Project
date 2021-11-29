@@ -15,7 +15,7 @@ import string
 
 def main():
 
-    driver = webdriver.Chrome('./selenium_chrome/drivers/chromedriver')
+    driver = webdriver.Chrome('/home/baiyu323/selenium_chrome/drivers/chromedriver')
     driver.implicitly_wait(30)
     #self.base_url = "http://start.firefoxchina.cn/"
     base_url = "http://localhost:3000"
