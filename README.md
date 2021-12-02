@@ -41,3 +41,4 @@ Tools used for whitebox testing:
 * Mocha  - Javascript test framework
 * Chai   - Javascript assertion library
 * Enzyme - Javascript React test Utility
+* Sinon  - Javascript standalone test doubles(spies, stubs, mocks)
