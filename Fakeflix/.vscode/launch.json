@@ -12,8 +12,11 @@
             "stopOnEntry": false,
             "args": [
                 "--require",
+                "ignore-styles",
+                "--require",
                 "node_modules/@babel/register",
                 "src/tests/whitebox_testing/*.spec.js",
+                "--inspect-brk",
                 "--no-timeouts",
                 "--exit"
             ],
