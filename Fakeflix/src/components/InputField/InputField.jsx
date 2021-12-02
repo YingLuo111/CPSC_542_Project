@@ -1,4 +1,5 @@
 import "./inputField.scss"
+import React from 'react';
 
 const InputField = ({
     type,
