@@ -5,7 +5,7 @@ Group Project
 
 Professor: David Heckathorn
 
-Team Members:
+Team Members: <br>
 Ying Luo,    yingluo_holiday@csu.fullerton.edu <br>
 Xiaotiam Ma, xiaotianma@csu.fullerton.edu <br>
 Yixiang Yan, yyx3333@csu.fullerton.edu <br>
@@ -15,7 +15,7 @@ Fakeflix - https://github.com/Th3Wall/Fakeflix
 
 How to run the project:
 1.  In the root directory of Fakeflix project, run the following command to navigate to the testing directory <br>
-    ```cd /tests``` <br>
+    ```cd ./src/tests``` <br>
 2.  Run the following command to install the packages <br>
     ```sh test_initializer.sh```
 3.  Steps for running backbox tests: <br>
