@@ -6,6 +6,7 @@ import { changeSearchInputValue, clearSearchInputValue, fetchSearchResultsAsync 
 import { FiSearch } from "react-icons/fi";
 import { RiCloseFill } from "react-icons/ri";
 import useOutsideClick from "../../hooks/useOutsideClick";
+import React from 'react';
 
 const Searchbar = () => {
 

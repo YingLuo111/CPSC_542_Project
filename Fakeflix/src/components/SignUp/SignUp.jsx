@@ -7,6 +7,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { signUpStart } from "../../redux/auth/auth.actions";
 import { selectAuthLoadingState } from "../../redux/auth/auth.selectors";
+import React from 'react';
 
 const SignUp = () => {
 	const dispatch = useDispatch();

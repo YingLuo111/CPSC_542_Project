@@ -8,6 +8,7 @@ import { showModalDetail } from "../../redux/modal/modal.actions";
 import { useDispatch } from "react-redux";
 import { addToFavourites, removeFromFavourites } from "../../redux/favourites/favourites.actions";
 import { Link } from "react-router-dom";
+import React from 'react';
 
 const Poster = result => {
     const { item, item: { title, original_name, original_title, name, genre_ids, backdrop_path }, isFavourite } = result;

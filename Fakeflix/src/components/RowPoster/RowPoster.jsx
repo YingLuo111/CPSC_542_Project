@@ -6,6 +6,7 @@ import { FaPlus, FaMinus, FaPlay, FaChevronDown } from "react-icons/fa";
 import useGenreConversion from "../../hooks/useGenreConversion";
 import { showModalDetail } from "../../redux/modal/modal.actions";
 import { Link } from "react-router-dom";
+import React from 'react';
 
 const RowPoster = result => {
 	const { item, item: { title, original_name, original_title, name, genre_ids, poster_path, backdrop_path }, isLarge, isFavourite } = result;

@@ -12,6 +12,7 @@ import Searchbar from "../Searchbar/Searchbar";
 import { useDispatch, useSelector } from "react-redux";
 import { selectCurrentUser } from "../../redux/auth/auth.selectors";
 import { signOutStart } from "../../redux/auth/auth.actions";
+import React from 'react';
 
 const Navbar = () => {
 	const { width } = useViewport();

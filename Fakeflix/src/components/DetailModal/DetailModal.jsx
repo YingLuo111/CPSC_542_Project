@@ -12,6 +12,7 @@ import { capitalizeFirstLetter, dateToYearOnly } from "../../utils";
 import { FaMinus, FaPlay, FaPlus } from "react-icons/fa";
 import { addToFavourites, removeFromFavourites } from "../../redux/favourites/favourites.actions";
 import useOutsideClick from "../../hooks/useOutsideClick";
+import React from 'react';
 
 const DetailModal = () => {
 

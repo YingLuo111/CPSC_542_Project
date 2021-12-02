@@ -8,6 +8,7 @@ import { useForm } from "react-hook-form";
 import { emailSignInStart, googleSignInStart, anonymousSignInStart } from "../../redux/auth/auth.actions";
 import { useDispatch, useSelector } from "react-redux";
 import { selectAuthLoadingState } from "../../redux/auth/auth.selectors";
+import React from 'react';
 
 const SignIn = () => {
 	const dispatch = useDispatch();
