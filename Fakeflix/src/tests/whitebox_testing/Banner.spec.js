@@ -128,3 +128,4 @@ describe('Banner component testing', function() {
         expect(wrapper.find(".Banner__bottom-shadow")).to.have.length.least(1);
       });
   });
+  
