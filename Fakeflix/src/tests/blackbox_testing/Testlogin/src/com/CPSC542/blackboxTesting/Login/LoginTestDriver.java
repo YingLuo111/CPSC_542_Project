@@ -37,7 +37,7 @@ public class LoginTestDriver {
 			//click login button
 			driver.findElement(By.className("SignIn__form--button")).click();
 			log("logging in");
-			sleep(10);
+			sleep(15);
 			
 			
 			driver.findElement(By.xpath("//img[@class='Navbar__navprofile--avatar Navbar__navprofile--toggler']")).click(); 
@@ -49,9 +49,9 @@ public class LoginTestDriver {
 			log("logout");	
 			sleep(5);
 			
-			log("Navigation tests succeeded");
+			log("Login tests succeeded");
 		} catch (Exception e) {
-			log("Navigation tests failed");
+			log("Login tests failed");
 			log(e.getMessage());
 		} finally {
 			driver.close();
