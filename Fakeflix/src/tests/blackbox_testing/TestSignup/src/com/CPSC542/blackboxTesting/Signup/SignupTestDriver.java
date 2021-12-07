@@ -1,7 +1,6 @@
 package com.CPSC542.blackboxTesting.Signup;
 
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -33,7 +32,7 @@ public class SignupTestDriver {
 			sleep(1);
 			
 			//set user email
-			driver.findElement(By.name("email")).sendKeys("cpsc542_fakeflix_blackbox_tests3@gmail.com");
+			driver.findElement(By.name("email")).sendKeys("cpsc542_fakeflix_blackbox_tests23@gmail.com");
 			log("Seting email for login");
 			sleep(1);
 			
@@ -62,9 +61,9 @@ public class SignupTestDriver {
 			log("logout");	
 			sleep(5);
 			
-			log("Navigation tests succeeded");
+			log("Signup tests succeeded");
 		} catch (Exception e) {
-			log("Navigation tests failed");
+			log("Signup tests failed");
 			log(e.getMessage());
 		} finally {
 			driver.close();
