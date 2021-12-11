@@ -36,7 +36,9 @@ How to run the project:
         > cd ./src/tests/blackbox_testing 
     * Run the following command to start the Fakeflix project 
         > sh start_fakeflix.sh
-    * Each directory in the /blackbox_testing folder is separate project to test one function of the Fakeflix project, load the project in a Java or Python IDE and execute the corresponding blackbox testing for that function. Demos are available for the functional tests. 
+    * Each directory in the /blackbox_testing folder is separate project to test one function of the Fakeflix project, 
+      load the project in a Java or Python IDE and execute the corresponding blackbox testing for that function. Demos 
+      are available for the functional tests. 
 3.  Steps for running whitebox tests: 
     * In the root directory of Fakeflix project, run the following command to navigate to  whitebox testing directory 
         > cd ./src/tests/blackbox_testing 
